@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.cont11{
+    height: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.con1{
+    width: 1100px;
+    height: 500px;
+     
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.items{
+    display:flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.items img{
+    display: flex;    
+    width: 300px;
+        height: 200px;
+        max-width: 100%;
+        max-height: 100%;
+        justify-content: center;
+      align-items: center;
+}
+.items p{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.gridp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.g-container{
+    display:grid;  
+    grid-template-columns:repeat(6,200px);
+    grid-template-rows: repeat(4,200px);
+    gap: 5px;
+
+  }
+  .g-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     border-radius:10px ;
+     
+}
+.g-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+
+}
+.g-tem img{
+    max-width: 300px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  box-shadow: 1 1 0 0px rgba(0, 0, 0, 0.5);
+}
+.g1{
+    grid-column-start: 1;
+
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.g4,.g8{
+    grid-column-start: 5;
+    grid-column-end: 7;
+
+}
+.g6{
+    grid-column-start: 1;
+
+    grid-column-end: 3;
+
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.g9{
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start:3;
+    grid-column-end: 7;
+}
+
+
+.footcards{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 70px;
+    width: 1400px;
+    height: 800px;
+   
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.pagefoot{
+    display: flex;
+    height: 300px;
+    padding:20px;
+    width: 100%;
+
+    justify-content: space-around;
+}
+.pagefoot li{
+    list-style: none;
+}
+.foot1 span{
+    display: flex;
+    height: 100px;
+    width: 300px;
+  
+    margin-top: 100px;
+}
+#backToTopBtn{
+    display: flex;
+    margin-top: 100px;
+}
+
